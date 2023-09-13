@@ -9,3 +9,8 @@ println "width is "+width
 println "depth is "+depth
 
 println "height is "+height
+
+
+CSG nameTagBase = new Cube(width,depth,height).toCSG()
+
+return nameTagBase
